@@ -26,7 +26,7 @@ npm install  # or yarn install
 ### **3️⃣ Set Up Environment Variables**
 Create a **`.env`** file in the root directory and add the following:
 ```env
-VITE_API_URL=http://3.228.97.110:9000/api
+VITE_API_URL= https://test.ezworks.ai/api
 ```
 
 ✅ **Vite automatically loads `.env` files**—no extra configuration required.
@@ -40,7 +40,7 @@ npm run dev  # or yarn dev
 
 ## 🔥 API Integration & Validation
 ### **API Details**
-- **Base URL**: `http://3.228.97.110:9000/api`
+- **Base URL**: ` https://test.ezworks.ai/api`
 - **Request Method**: `POST`
 - **Required Field**: `email`
 

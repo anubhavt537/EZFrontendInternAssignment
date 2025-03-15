@@ -1,4 +1,4 @@
-# 📌 Front-End Intern Test - ReactJS
+# 📌 Front-End Intern Test - ReactJS(Live Link->https://ez-frontend-intern-assignment.vercel.app/)
 
 This repository contains a **ReactJS (Vite)** single-page web application as part of the Front-End Intern test. The application is **responsive** and integrates with a provided API. The design follows the shared **Adobe XD** prototype.
 

@@ -11,7 +11,7 @@ This repository contains a **ReactJS (Vite)** single-page web application as par
 ![mobile](https://github.com/user-attachments/assets/6cffcf00-3ae5-4bae-8c09-31ab9335e2c0)
 ![web](https://github.com/user-attachments/assets/0c7261c6-8123-4fd8-b63f-78ded61ca66f)
 ![Screenshot 2025-03-13 234323](https://github.com/user-attachments/assets/99f1a1b8-d96a-4134-a6ca-64c50fd1ec3f)
-![Screenshot (621)](https://github.com/user-attachments/assets/5f7d2773-1d97-4453-bce4-e121ecdf3314)
+
 
 ---
 

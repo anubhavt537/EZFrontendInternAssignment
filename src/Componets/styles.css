@@ -1,0 +1,324 @@
+/* created By anubhavt537@gmial.com
+
+*/
+/* Common styles */
+:root {
+    --primary-color: #40B3E5;
+    --dark-blue: #0F2744;
+    --heading-color: #445566;
+    --subheading-color: #667788;
+    --button-color: #FF8844;
+    --service-text-color: #BBCCDD;
+    --border-color: #CCCCCC;
+  }
+  
+  /* Base Styles */
+  .container {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  .container.desktop {
+    max-width: 1280px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container.mobile {
+    max-width: 480px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+  }
+  
+  /* Logo and branding */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container.desktop .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .container.mobile .logo-container {
+    margin-bottom: 10px;
+  }
+  
+  .logo-box {
+    
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container.desktop .logo-box {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .container.mobile .logo-box {
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 5px;
+    
+    margin-right: 5px;
+  }
+
+  .container.mobile .logo-box img {
+   height: 40px;
+  }
+  
+  .logo-text, .brand-text {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  .container.desktop .logo-text {
+    font-size: 32px;
+  }
+  
+  .container.mobile .logo-text {
+    font-size: 1x;
+  }
+  
+  .container.desktop .brand-text {
+    font-size: 36px;
+  }
+  
+  .container.mobile .brand-text {
+    font-size: 18px;
+  }
+  
+  /* Headings and text */
+  .heading {
+    color: var(--heading-color);
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .container.desktop .heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .container.mobile .heading {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .subheading {
+    color: var(--subheading-color);
+    line-height: 1.5;
+  }
+  
+  .container.desktop .subheading {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .container.mobile .subheading {
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Form elements */
+  .form-container {
+    margin-bottom: 40px;
+  }
+  
+  .form-container.desktop {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .form-container.mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+    gap: 10px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s, color 0.3s;
+  }
+  
+  .container.desktop .input {
+    padding: 12px 15px;
+    width: 250px;
+    font-size: 16px;
+  }
+  
+  .container.mobile .input {
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .container.desktop .button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+  
+  .container.mobile .button {
+    padding: 10px 25px;
+    font-size: 14px;
+    width: 120px;
+  }
+  
+  /* Layout */
+  .main-content {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+  }
+  
+  .left-section {
+    flex: 0 0 40%;
+  }
+  
+  .right-section {
+    flex: 0 0 60%;
+  }
+  
+  /* Services */
+  .services-grid.desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .services-grid.mobile {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+    
+   
+  }
+  
+  .service-card {
+    background-color: var(--dark-blue);
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .container.desktop .service-card {
+    padding: 20px;
+  }
+  
+  .container.mobile .service-card {
+    padding: 15px;
+    height: 180px;
+  }
+  
+  .service-header {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .container.desktop .service-header {
+    margin-bottom: 15px;
+  }
+  
+  .container.mobile .service-header {
+    margin-bottom: 8px;
+  }
+  
+  .service-icon {
+    width: 40px;  /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    object-fit: contain; /* Ensures image fits without distortion */
+    margin-right: 10px;
+}
+  
+  .container.desktop .service-icon {
+    font-size: 18px;
+  }
+  
+  .container.mobile .service-icon {
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  
+  .service-title {
+    color: var(--primary-color);
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  .container.desktop .service-title {
+    font-size: 16px;
+  }
+  
+  .container.mobile .service-title {
+    font-size: 20px;
+  }
+  
+  .service-description {
+    color: var(--service-text-color);
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  .container.desktop .service-description {
+    font-size: 14px;
+  }
+  
+  .container.mobile .service-description {
+    font-size: 14px; /* Increased from 12px */
+    line-height: 1.6; /* Slightly improved readability */  }
+
+ 
+    .input-error {
+      border-color: red !important;
+      color: red !important;
+    }
+    
+    /* Success State */
+    .input-success {
+      border-color: green !important;
+      color: green !important;
+    }
+    
+    /* Placeholder Styling for Better Visibility */
+    .input::placeholder {
+      color: gray;
+      font-style: italic;
+    }
+    
+    .input-error::placeholder {
+      color: red;
+    }
+    
+    .input-success::placeholder {
+      color: green;
+    }
